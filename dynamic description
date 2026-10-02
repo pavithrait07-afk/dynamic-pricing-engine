@@ -1,0 +1,9 @@
+How it works:
+
+1.Function Call: The calculate_dynamic_price() function evaluates the defined base price against active business rules.
+
+2.Rule Application: It sequentially applies a weather surge multiplier (e.g., 20% increase during rain) and a scarcity multiplier (e.g., 10% increase for low stock levels).
+
+3.Market Cap Check: It compares the calculated price with the competitor's rate to ensure market competitiveness, capping the final price if it exceeds the competitor's benchmark.
+
+4.Output Generation: The final price is rounded to two decimal places for accurate retail display, transforming static pricing into a responsive, demand-driven model.
